@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AluraGeek</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./assets/hearts.svg" alt="three_hearts">
+            <h1> AluraGeek</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- SECCION DE PRODUCTO -->
+        <section>
+            <h2 class="section__title">
+                Mis productos:
+            </h2>
+            <!-- PRODUCT LIST -->
+            <ul class="product-list" data-product-list>
+                
+            </ul>
+        </section>
+
+        <!-- SECCION FORMULARIO -->
+        <section>
+            <h2 class="section__title">
+                Agregar Producto:
+            </h2>
+            <form action="" data-form >
+                <input required type="text" placeholder="Nombre..." data-name>
+                <input required type="number" min="0" placeholder="Precio..." data-price>
+                <input type="text" placeholder="Imagen..." data-image>
+                <div class="form__buttons">
+                    <button class="btn-primary" type="submit">Enviar</button>
+                    <button class="btn-secondary" type="reset">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="logo">
+            <img src="./assets/hearts.svg" alt="three_hearts">
+            <h1>AluraGeek</h1>
+        </div>
+        <h3>Desarrollado por Seba Monsalve</h3>
+        <p>Alura Latam - 2024</p>
+    </footer>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>

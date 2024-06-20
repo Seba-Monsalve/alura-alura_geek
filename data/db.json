@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "darthvader",
+      "price": "2000",
+      "img_path": "./assets/darthvader.png"
+    },
+    {
+      "id": "2",
+      "name": "minecraft",
+      "price": "1540",
+      "img_path": "./assets/minecraft.png"
+    },
+    {
+      "id": "3",
+      "name": "warhammer",
+      "price": "3200",
+      "img_path": "./assets/warhammer.png"
+    },
+    {
+      "id": "4",
+      "name": "stormtropper",
+      "price": "500",
+      "img_path": "./assets/stormtropper.png"
+    },
+    {
+      "id": "2bce",
+      "name": "Luffy",
+      "price": "2344",
+      "img_path": "https://i.pinimg.com/736x/c1/40/30/c14030ead2f61d136ca5cba9ef5f5395.jpg"
+    },
+    {
+      "id": "4cfb",
+      "name": "No image",
+      "price": "0",
+      "img_path": "./assets/default.png"
+    }
+  ]
+}
