@@ -5,11 +5,11 @@ AluraGeek es un proyecto simple para profundizar en el desarrollo web usando HTM
 ### Pre-requisitos 📋
 
 ```
-Navegador web compatible
-NodeJs
-Visual Studio Code
-Extension VS :: LiveServer
-Extension VS :: json-server
+* Navegador web compatible
+* NodeJs
+* Visual Studio Code
+* Extension VS :: LiveServer
+* Extension VS :: json-server
 ```
 
 ### Instalación 🔧
@@ -45,8 +45,6 @@ npx -watch json-server data/db.json
 Se dispone de un json de prueba llamado 'db.json.template' con el cual puedes hacer pruebas
 
 ## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * [Seba Monsalve](https://github.com/seba-monsalve)
   
