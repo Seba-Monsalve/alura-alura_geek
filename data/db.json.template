@@ -2,15 +2,15 @@
   "products": [
     {
       "id": "1",
-      "name": "darthvader",
+      "name": "illidan",
       "price": "2000",
-      "img_path": "./assets/darthvader.png"
+      "img_path": "./assets/illidan.png"
     },
     {
       "id": "2",
-      "name": "minecraft",
+      "name": "Tassadar",
       "price": "1540",
-      "img_path": "./assets/minecraft.png"
+      "img_path": "https://artistmonkeys.com/wp-content/uploads/2023/10/Starcraft-Protoss-Tassadar-7.jpg"
     },
     {
       "id": "3",

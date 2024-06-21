@@ -99,8 +99,9 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+  display: block-inline;
 }
+
 
 body {
   line-height: 1;
@@ -149,9 +150,13 @@ table {
 
 
 html {
+  scroll-behavior: smooth;
   height: 100vh;
 }
 
+a {
+  text-decoration: none;
+}
 
 h1,
 h2,
@@ -198,6 +203,7 @@ section {
   padding: 1em;
   width: 100%;
   height: 100%;
+
   gap: 2em;
 
 
@@ -213,8 +219,10 @@ section {
   align-items: center;
   justify-content: center;
   gap: 1.5em 0.5em;
-
+  height: max-content;
+  margin-bottom: 7em;
 }
+
 .product {
   display: flex;
   flex-flow: column wrap;
@@ -269,6 +277,8 @@ section {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -276,10 +286,12 @@ footer {
   padding: 0.5em 0;
   color: white;
   background-color: var(--secondary-color-1);
+  min-height: 6em;
   width: 100%;
   box-shadow: 2px -5px 2px 1px rgba(0, 0, 0, 0.2);
   gap: 0.5em;
-  h3{
+
+  h3 {
     padding: 2px;
     background-color: var(--main-color-3);
   }
@@ -318,6 +330,7 @@ form {
     font-size: 10px;
 
   }
+
   input::file-selector-button {
     display: none;
   }
@@ -365,7 +378,8 @@ form {
 
 }
 
-footer:hover,header:hover{
+footer:hover,
+header:hover {
   background-color: var(--main-color-2);
 }
 
@@ -373,5 +387,15 @@ footer:hover,header:hover{
   main {
 
     flex-flow: row wrap-reverse;
+  }
+
+
+  .product-list {
+    margin: 0;
+
+  }
+
+  footer {
+    position: inherit;
   }
 }
