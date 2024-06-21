@@ -48,10 +48,9 @@ Se dispone de un json de prueba llamado 'db.json.template' con el cual puedes ha
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Seba Monsalve [villanuevand](https://github.com/seba-monsalve)
+* [Seba Monsalve](https://github.com/seba-monsalve)
   
 ## Expresiones de Gratitud 🎁
 
-* Gracias a Alura por estas oportunidades de practica 
+* Gracias a [Alura](https://www.aluracursos.com/) por estas oportunidades de practica 
 * Plantilla Readme por [Villanuevand](https://github.com/Villanuevand) 😊
-
